@@ -1,20 +1,18 @@
 import React, { useEffect, useState } from "react";
-import styles from "./App.module.css";
+import "./App.css";
 import Tables from "./components/Tables";
-import Form from "./components/Form";
+
+
 
 function App() {
 
-
+  
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Inventory Manager</h1>
+        <h1>Päron AB</h1>
         <div>
-        <Tables />
-        </div>
-        <div>
-        <Form />
+          <Tables />
         </div>
       </header>
     </div>

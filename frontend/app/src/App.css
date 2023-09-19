@@ -1,0 +1,9 @@
+.App-header{
+    background-color: #03457e;
+    height: 60px;
+    z-index: inherit;
+}
+.App-header>h1 {
+    color: aliceblue;
+    margin-left: 40px;
+}
